@@ -37,5 +37,21 @@ The middle character(s) of the word represented as a string.
 
 function getMiddle(s)
 {
-  return s.substr(Math.ceil(s.length / 2 - 1), s.length % 2 === 0 ? 2 : 1);
-}
+  return s.substr('
+
+
+  '
+  function getMiddle(str){
+    
+    let middle = Math.floor(str.length/2)
+  
+    if(str.length%2 === 0){
+      
+      return str.slice(middle-1,middle+1)
+      
+    }else{
+      return str.charAt(middle)
+    }
+  
+  };
+  
