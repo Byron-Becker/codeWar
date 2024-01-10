@@ -42,7 +42,9 @@ smash = function (words) {
     
   }
 
-
+  function DNAtoRNA(dna){
+    return dna.replace(/T/g, 'U');
+  }
 
 
 
