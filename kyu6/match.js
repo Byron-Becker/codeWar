@@ -9,3 +9,9 @@ function getCount(str) {
     return str.match(/[aeiou]/g).length
     
   }
+
+  function getCount(str) {
+  
+    return str.split(' ').filter(c => 'aeiouAEIOU'.includes(c)).length
+    
+  }
