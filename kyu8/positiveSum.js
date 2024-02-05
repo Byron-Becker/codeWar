@@ -10,5 +10,5 @@ function positiveSum(arr) {
       return 0
     }else{
      return arr.filter(e => e > 0).reduce((a,b)=> a+b,0)
-    }
-  }
+    };
+  };
