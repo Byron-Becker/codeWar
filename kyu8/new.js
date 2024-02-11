@@ -42,3 +42,23 @@ function oddOrEven(array) {
     }
     
   }
+
+
+  function removeSmallest(numbers) {
+    if(numbers.length === 0){
+      return []
+    }else{
+      
+    
+      let lowNum = Math.min(...numbers)
+      
+      let index = numbers.indexOf(lowNum)
+      
+      let newarray = numbers.slice(0, index)
+      let newArray1 = numbers.slice(index+1)
+      
+      return [...newarray, newArray1]
+      }
+    }
+    
+
