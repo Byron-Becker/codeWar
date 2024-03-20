@@ -13,3 +13,9 @@ function solution(str, ending){
     
   
   }
+
+  function solution(str, ending){
+  
+    return str.slice(-ending.length) === ending ? true : false
+  
+  }
