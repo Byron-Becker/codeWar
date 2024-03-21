@@ -1,0 +1,19 @@
+Complete the function/method so that it returns the url with anything after the anchor (#) removed.
+Examples
+
+"www.codewars.com#about" --> "www.codewars.com"
+"www.codewars.com?page=1" -->"www.codewars.com?page=1"
+
+
+function removeUrlAnchor(url){
+  
+  let iSymb = url.indexOf('#')
+  
+  if(iSymb === -1){
+    return url
+  }else{
+  
+  return url.slice(0, iSymb )
+  };
+  
+  };
