@@ -1,12 +1,5 @@
-const elements = ["thing 1", "thing 2"]
-
-function App() {
-
-    const elementArr = elements.map(items => <p>{items}</p>)
-
-return (
-    <Navbar />
-    {elementArr}
-)
-
-}
+const things = thingsArray.map(item => {
+    return (
+        <p>{item}</p>
+    )
+})
