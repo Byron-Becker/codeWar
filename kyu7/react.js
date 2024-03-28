@@ -1,5 +1,3 @@
-const things = thingsArray.map(item => {
-    return (
+const things = thingsArray.map(item => 
         <p>{item}</p>
     )
-})
